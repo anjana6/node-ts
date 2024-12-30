@@ -1,3 +1,5 @@
+## Setup Project with TypeScript, eslint, Prettier, lint-staged and husky 
+
 #### Crate package.json file
 npm init -y
 
