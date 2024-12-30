@@ -11,7 +11,7 @@
         "lint": "eslint .",
         "lint-fix": "npm run lint -- --fix",
         "format": "prettier --write \"src/**/*.{js,ts,json,css,md}\"",
-        "prepare": "husky"
+        "prepare": "husky && husky install"
     },
     "lint-staged": {
         "*.{ts,js}": [
@@ -37,7 +37,7 @@
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-prettier": "^5.2.1",
         "globals": "^15.14.0",
-        "husky": "^9.1.7",
+        "husky": "^8.0.0",
         "lint-staged": "^15.3.0",
         "nodemon": "^3.1.9",
         "prettier": "^3.4.2",
