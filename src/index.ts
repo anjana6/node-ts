@@ -5,3 +5,7 @@ function addFruit(fruit: string) {
 }
 
 addFruit("banana");
+
+export const test = () => {
+    "test";
+};
